@@ -152,10 +152,10 @@
     breakpoints: {
       320: {
         slidesPerView: 1,
-        spaceBetween: 20
+        spaceBetween: 120
       },
 
-      1200: {
+      20: {
         slidesPerView: 3,
         spaceBetween: 20
       }

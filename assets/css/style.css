@@ -593,6 +593,33 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+  overflow: hidden;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 800px;
+  margin-left: 140px;
+}
+
+.testimonials .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #CA3120;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #CA3120;
+}
+
+/*--------------------------------------------------------------
 # Steps
 --------------------------------------------------------------*/
 .steps {
